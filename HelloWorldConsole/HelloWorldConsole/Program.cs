@@ -1,8 +1,15 @@
+
+//File Header//
+//Name: Program.cs
+//Purpose: Main();
+
+// list of libraries - add only what is needed. and mention why.
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace HelloWorldConsole
 {
@@ -11,7 +18,7 @@ namespace HelloWorldConsole
         static void Main(string[] args)
         {
             Console.Write("HelloWorld");
-            Console.Write("\n\tPress g: \n");
+            Console.Write("\nPress g: \n");
             String reply = Console.ReadLine();
             Console.Write("\t\t"+reply);
             Console.ReadKey();
