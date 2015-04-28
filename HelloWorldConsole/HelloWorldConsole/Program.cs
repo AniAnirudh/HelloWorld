@@ -10,11 +10,12 @@ namespace HelloWorldConsole
     {
         static void Main(string[] args)
         {
-            Console.Write("HelloWorld");
-            Console.Write("\n\tPress g: \n");
+            Console.Write("Hello-World");
+            Console.Write("\nPress g: ");
             String reply = Console.ReadLine();
-            Console.Write("\t\t"+reply);
-            Console.ReadKey();
+            //Console.Write("\t\t"+reply);
+            Console.Write("\n"+"bye g\n\n");
+            //Console.ReadKey();
         }
     }
 }
